@@ -1,0 +1,3 @@
+* Dependencies
+ * OpenSSL
+ * SBCL (untested on other implementations)
