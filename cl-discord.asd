@@ -1,6 +1,6 @@
 (defsystem "cl-discord"
 	:description "Easy-to-use API for Discord in Common Lisp, targeting API v10."
-	:depends-on (:dexador :serapeum)
+	:depends-on (:dexador :serapeum :alexandria)
 	:components ((:file "packages")
 							 (:file "primitives/base" :depends-on ("packages"))
 							 (:file "primitives/images" :depends-on ("packages"))
